@@ -1,0 +1,227 @@
+/* 노멀라이징 */
+*{
+    margin: 0 ;
+    padding: 0 ;
+  }
+  ul , li {
+    list-style: none ;
+  }
+  a{
+    color: inherit ;
+    text-decoration: none ;
+  }
+/* 라이브러리 */
+.cell{
+    float: left ;
+}
+.cell-r{
+    float: right ;
+}
+.row::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+.con{
+    margin: 0 auto;
+}
+#fp-nav ul li a span{
+    background: #eeeeee ;
+}
+
+
+/*시작*/
+/*nav-wrap*/
+.nav-wrap{
+    position: fixed ;
+    z-index: 9 ;
+    width: 100% ;
+    top: 20px ;
+    left:  0 ;
+    color: #eeeeee ;
+}
+.nav-wrap > ul > li{
+    font-size: 20px ;
+    padding-top: 20px ;
+    padding-left: 100px ;
+    padding-right: 100px ;
+    font-family: 'GmarketSansLight' ;
+} 
+/*wrap*/
+.section01{
+    background-image: url(../img/background);
+}
+.section01 .gif-txt-wrap{
+    width: 1600px ;
+    height: 800px ;
+    /*background-color: aqua;*/
+    margin: 0 auto ;
+    
+}
+.section01 .gif-txt-wrap  .gif{
+    width: 800px ;
+    height: 800px ;
+    background-image: url(../img/s1-txt-g);
+}
+.section01 .gif-txt-wrap  .txt{
+    width: 800px;
+    height: 800px;
+}
+
+
+.section02{
+    background-image: url(../img/background);
+}
+.section02 p{
+    color: #eeeeee ;
+    font-size: 25px ;
+    text-align: center ;
+    margin: o auto ;
+}
+.section02 .gif-wrap{
+    width: 550px ;
+    height: 130px ;
+    margin: 0 auto;
+}
+.section02 .gif-wrap .txt{
+    width: 80px ;
+    height: 130px ;
+}
+.section02 .gif-wrap .txt{
+    text-align: center ;
+    line-height: 130px ;
+}
+.section02 .gif-wrap .gif01{
+    width: 130px ;
+    height: 130px ;
+    background-image: url(../img/s2-g01.gif);
+    background-size: cover ;
+    background-repeat: no-repeat ;
+}
+.section02 .gif-wrap .gif02{
+    width: 130px ;
+    height: 130px ;
+    background-image: url(../img/s2-g02.gif);
+    background-size: cover ;
+    background-repeat: no-repeat ;
+}
+.section02 .gif-wrap .gif03{
+    width: 130px ;
+    height: 130px ;
+    background-image: url(../img/s2-g03.gif);
+    background-size: cover ;
+    background-repeat: no-repeat ;
+}
+.animation{
+    animation-name: test ;
+    animation-duration: 30s ;
+    animation-timing-function: linear ;
+    animation-iteration-count: infinite ;
+}
+.reverse{
+    animation-direction: reverse ;
+}
+.animation-paused{
+    animation-play-state: paused ;
+}
+@keyframes test {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-50%);
+    }
+}
+.section03{
+    background-image: url(../img/background);
+}
+
+.section03 .wrap{
+    width: 100% ;
+    height: 100vh;
+    padding-top: 110px;
+    box-sizing: border-box;
+    overflow: hidden ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    background-position: center ;
+}
+.wrap.bg01{
+    background-image: url(../img/test-backgroud.png);
+}
+.wrap.bg02{
+    background-image: url(../img/111111.png);
+}
+.wrap.bg03{
+    background-image: url(../img/test-backgroud.png);
+}
+.wrap.bg04{
+    background-image: url(../img/111111.png);
+}
+.section03 .wrap .img-list-wrap{
+    padding-top: 30px ;
+    height: 210px ;
+    border-bottom: #eeeeee solid 1px ;
+    box-sizing: border-box ;
+}
+.section03 .wrap .web-wrap{
+    width: 15290px;
+}
+.section03 .wrap .app-wrap{
+    width: 14830px;
+}
+.section03 .wrap .event-wrap{
+    width: 12900px;
+}
+.section03 .wrap .brand-wrap{
+    width: 15170px;
+}
+.section03 .wrap .img-list-wrap .web-list{
+    width: 7645px;
+}
+.section03 .wrap .img-list-wrap .app-list{
+    width: 7415px;
+}
+.section03 .wrap .img-list-wrap .event-list{
+    width: 6450px;
+}
+.section03 .wrap .img-list-wrap .brand-list{
+    width: 7585px;
+}
+.section03 .wrap .img-list-wrap .img-list .web-box{
+    width: 1529px ;
+}
+.section03 .wrap .img-list-wrap .img-list .app-box{
+    width: 1483px ;
+}
+.section03 .wrap .img-list-wrap .img-list .event-box{
+    width: 1290px ;
+} 
+.section03 .wrap .img-list-wrap .img-list .brand-box{
+    width: 1517px ;
+} 
+.section03 .wrap .img-list-wrap .img-list .img-box img{
+    width: 100% ;
+    display: none ;
+}
+.section03 .wrap .img-list-wrap .img-list .img-box .normal{
+    display: block ;
+}
+.section03 .wrap .img-list-wrap .img-list .img-box:hover .normal{
+    display: none ;
+}
+.section03 .wrap .img-list-wrap .img-list .img-box:hover .hover{
+    display: block ;
+}
+.section04{
+    background-image: url(../img/background);
+}
+.footer-wrap{
+    background-color: black ;
+}
+
+
+.footer-wrap .footer{
+    height: 300px ;
+}
+
