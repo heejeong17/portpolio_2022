@@ -35,21 +35,29 @@
 .nav-wrap{
     position: fixed ;
     z-index: 9 ;
-    width: 100% ;
+    width: 1920px ;
     top: 20px ;
     left:  0 ;
     color: #eeeeee ;
 }
 .nav-wrap > ul > li{
     font-size: 20px ;
-    padding-top: 20px ;
+    padding-top: 40px ;
     padding-left: 100px ;
     padding-right: 100px ;
     font-family: 'GmarketSansLight' ;
 } 
 /*wrap*/
+.wrap{
+    width: 1920px ;
+}
+
 .section01{
-    background-image: url(../img/background);
+    background-image: url(../img/seabg.png);
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    position: relative;
 }
 .section01 .gif-txt-wrap{
     width: 1600px ;
@@ -67,10 +75,63 @@
     width: 800px;
     height: 800px;
 }
-
+.section01 .PSD p{
+    bottom: 60px ;
+    left: 100px ;
+    font-size: 16px ;
+    color: #eeeeee ;
+    position: absolute ;
+}
+.section01 .view p{
+    bottom: 60px ;
+    left: 50% ;
+    font-size: 16px ;
+    color: #eeeeee ;
+    position: absolute ;
+    transform: translateX(-50%);
+}
+.section01 .c2022 p{
+    bottom: 60px ;
+    font-size: 16px ;
+    color: #eeeeee ;
+    position: absolute ;
+    right: 100px;
+}
+.section01 .arrow{
+    width: 20px ;
+    height: 13px ;
+    background-image: url(../img/arrow.png) ;
+    background-size: cover ;
+    background-repeat: no-repeat ;
+    background-position: center ;
+    position: absolute ;
+    bottom: 40px ;
+    left: 50% ;
+    transform: translateX(-50%);
+}
+.section01 .animation{
+    animation-name: arrow ;
+    animation-duration: 1.5s ;
+    animation-iteration-count: infinite ;
+  }
+  
+  @keyframes arrow{
+    
+    0%{
+        bottom: 40px ;
+    }
+    
+    100%{
+        bottom: 20px ;
+    }
+    
+  } 
 
 .section02{
-    background-image: url(../img/background);
+    background-image: url(../img/whtest.png);
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
 }
 .section02 p{
     color: #eeeeee ;
@@ -133,24 +194,78 @@
     }
 }
 .section03{
-    background-image: url(../img/background);
+    background-image: url(../img/seabg.png);
+    background-position: center ;
+    background-size: cover ;
+    background-repeat: no-repeat ;
 }
 
 .section03 .wrap{
+    top: 60px ;
     width: 100% ;
-    height: 100vh;
-    padding-top: 110px;
+    height: 840px ;
     box-sizing: border-box;
     overflow: hidden ;
     background-repeat: no-repeat ;
     background-size: cover ;
     background-position: center ;
 }
+.section03 .PSD p{
+    bottom: 60px ;
+    left: 100px ;
+    font-size: 16px ;
+    color: #eeeeee ;
+    position: absolute ;
+}
+.section03 .view p{
+    bottom: 60px ;
+    left: 50% ;
+    font-size: 16px ;
+    color: #eeeeee ;
+    position: absolute ;
+    transform: translateX(-50%);
+}
+.section03 .c2022 p{
+    bottom: 60px ;
+    font-size: 16px ;
+    color: #eeeeee ;
+    position: absolute ;
+    right: 100px;
+}
+.section03 .arrow{
+    width: 20px ;
+    height: 13px ;
+    background-image: url(../img/arrow.png) ;
+    background-size: cover ;
+    background-repeat: no-repeat ;
+    background-position: center ;
+    position: absolute ;
+    bottom: 40px ;
+    left: 50% ;
+    transform: translateX(-50%);
+}
+.section03 .animation02{
+    animation-name: arrow ;
+    animation-duration: 1.5s ;
+    animation-iteration-count: infinite ;
+  }
+  
+  @keyframes arrow{
+    
+    0%{
+        bottom: 40px ;
+    }
+    
+    100%{
+        bottom: 20px ;
+    }
+    
+  }
 .wrap.bg01{
     background-image: url(../img/test-backgroud.png);
 }
 .wrap.bg02{
-    background-image: url(../img/111111.png);
+    background-image: url(../img/background);
 }
 .wrap.bg03{
     background-image: url(../img/test-backgroud.png);
@@ -214,14 +329,17 @@
     display: block ;
 }
 .section04{
-    background-image: url(../img/background);
+    background-image: url(../img/whtest.png);
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
 }
 .footer-wrap{
     background-color: black ;
+    background-image: url(../img/seabg.png);
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-size: cover ;    
 }
 
-
-.footer-wrap .footer{
-    height: 300px ;
-}
 
