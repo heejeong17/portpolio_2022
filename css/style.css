@@ -41,7 +41,7 @@
     width: 1920px ;
     top: 20px ;
     left:  0 ;
-    color: #eeeeee ;
+    
     margin: 0 auto;
 }
 .nav-wrap > ul > li{
@@ -50,6 +50,7 @@
     padding-left: 100px ;
     padding-right: 100px ;
     font-family: 'GmarketSansLight' ;
+    color: #eeeeee ;
 } 
 /*wrap*/
 .wrap{
