@@ -39,19 +39,41 @@
     position: fixed ;
     z-index: 9 ;
     width: 1920px ;
-    top: 20px ;
+    top: 40px ;
     left:  0 ;
     
     margin: 0 auto;
 }
-.nav-wrap > ul > li{
+.nav-wrap ul{
+    position: relative;
+}
+.nav-wrap ul li:nth-child(1) a{
     font-size: 20px ;
-    padding-top: 40px ;
     padding-left: 100px ;
     padding-right: 100px ;
-    font-family: 'GmarketSansLight' ;
+    font-family: 'GmarketSansMedium';
     color: #eeeeee ;
 } 
+.nav-wrap ul li a .top01{
+    color: #eeeeee ;
+    font-family: 'GmarketSansMedium';
+    font-size: 20px ;
+    right: 100px ;
+    position: absolute ;
+}
+.nav-wrap ul li a .top02{
+    color: #eeeeee ;
+    font-family: 'GmarketSansMedium';
+    font-size: 16px ;
+    right: 100px  ;
+    position: absolute ;
+    top: 30px ;
+    opacity: 0% ;
+}
+.nav-wrap ul li a:hover .top02{
+    opacity: 100% ;
+}
+
 /*wrap*/
 .wrap{
     width: 1920px ;
@@ -545,6 +567,9 @@
     font-size: 16px ;
     color: #eeeeee ;
     font-family: 'GmarketSansLight';
+}
+.footer-wrap .contact p b{
+    color: #eeeeee ;
 }
 
 
