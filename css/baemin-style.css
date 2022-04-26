@@ -1,0 +1,185 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    font-family: 'BMHANNAAir' ;
+}
+ul , li {
+    list-style: none ;
+}
+a{
+    color: inherit ;
+    text-decoration: none ;
+}
+
+/* 라이브러리 */
+.cell{
+    float: left ;
+}
+.cell-r{
+    float: right ;
+}
+.row::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+.con{
+    margin: 0 auto;
+}
+#fp-nav ul li a span{
+    background: #eeeeee ;
+}
+
+/* 배달의 민족 */
+h1{
+    text-align:center ;
+    font-size: 50px ;
+}
+
+body{
+    height: 100%  ;
+    width: 1920px ;
+}
+  
+.main-wrap{
+    background-color:lightgreen;
+    height: 100vh ;
+    background-image: url(../img/main-final);
+    background-size: cover ;
+    background-repeat: no-repeat ;
+    background-position: center ;
+}
+
+.content-wrap01{
+    background-color:#ffffff;
+    width: 100% ;
+    height: 120vh ;
+    border-radius: 50px 50px 0px 0px;
+    box-shadow: 5px -20px 20px rgba(153, 153, 153, 0.3) ;
+    background-image:url(../img/con01-video-03);
+    background-size: cover ;
+    background-repeat: no-repeat ;
+    background-position: center ;
+    position: relative;
+}
+
+.content-wrap01 > .s01{
+    position: absolute ;
+    left: 25% ;
+    top: 23% ;
+}
+.content-wrap01 > .s02{
+    position: absolute ;
+    right: 25% ;
+    top: 40% ;
+}
+.content-wrap01 > .s03{
+    position: absolute ;
+    left: 25% ;
+    top: 59% ;
+}
+
+.content02-wrap{
+    background-color:#eeeeee;
+    width: 100% ;
+    height: 100vh ;
+    background-image:url(../img/con02-video-01);
+    background-size: cover ;
+    background-repeat: no-repeat ;
+    background-position: center ;
+}
+.wrap > .content02-wrap{
+    position: relative;
+}
+.wrap > .content02-wrap > div{
+    position: absolute ;
+    top: 32% ;
+    left: 50% ;
+    transform: translateX(-50%);
+}
+.wrap > .content02-wrap > div > .p01{
+    font-size: 24px ;
+    font-family: 'BMDOHYEON';
+    color: black;
+    text-align: center;
+    margin-bottom: -10px ;
+}
+
+.wrap > .content02-wrap > div > .p02{
+    font-size: 20px ;
+    font-family: 'BMDOHYEON';
+    color: black;
+    text-align: center;
+    line-height: 30px ;
+}
+.wrap > .content02-wrap > div > p >span{
+    color: #2bc1bc;
+    font-family: 'BMDOHYEON';
+}
+.content03-wrap{
+    background-color:#eeeeee;
+    width: 100% ;
+    height: 100vh ;
+    background-image:url(../img/con03-video-01);
+    background-size: cover ;
+    background-repeat: no-repeat ;
+    background-position: center ;
+    position: relative ;
+}
+.wrap > .content03-wrap > div{
+    position: absolute ;
+    top: 65% ;
+    left: 50% ;
+    transform: translateX(-50%);
+}
+.wrap > .content03-wrap > div > p{
+    font-size: 20px ;
+    font-family: 'BMDOHYEON';
+    color: #2bc1bc;
+    text-align: center ;
+    line-height: 30px ;
+}
+.wrap > .content03-wrap > div > p > span{
+    color: black ;
+    font-family: 'BMDOHYEON';
+}
+.wrap > .content03-wrap > .btn{
+    width: 500px ;
+    height: 100px ;
+    background-color: #2bc1bc ;
+    margin: 0 auto ;
+    position: absolute ;
+    top: 78% ;
+    border-radius: 10px ;
+    padding: 30px ;
+    box-sizing: border-box ;
+    transition: 0.5s ;
+    cursor: pointer;
+}
+.wrap > .content03-wrap > .btn:hover{
+    background-color: #ffffff ;
+}
+.wrap > .content03-wrap > .btn > p{
+    font-size: 42px ;
+    font-family: 'BMEULJIRO';
+    color: #ffffff;
+    text-align: center ;
+    line-height: 45px ;
+    transition: 0.5s ;
+}
+.wrap > .content03-wrap > .btn:hover > p{
+    color: #2bc1bc ;
+}
+.footer{
+    background-color:#222;
+    width: 1920px ;
+    height: 220px ;
+    padding: 50px ;
+    box-sizing: border-box ;
+}
+.footer > p{
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #aaa;
+    font-size: 18px ;
+    text-align: center ;
+}
