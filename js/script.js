@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
     $(".wrap").fullpage({
         navigation: true , 
         navigationTooltips: [
@@ -15,8 +16,6 @@ $(document).ready(function(){
     });
     mySVG.drawsvg('animate');
 
-    
-
     $(".wrap > .img-list-wrap > .img-list > a > .img-box").mouseover(function(){
 
         var bg_data_num = $(this).attr("data-bg-no");
@@ -31,4 +30,10 @@ $(document).ready(function(){
         $(".wrap").removeClass(bg_data_num);
 
     });
+
+    $(".center-txt").click(function(){
+        $(".wrap").toggleClass("active")
+    });
+
+    
 });
