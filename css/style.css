@@ -156,7 +156,7 @@
   } 
 
 .section02{
-    background-image: url(../img/sky02.png);
+    background-image: url(../img/02-bg.png);
     background-position: center ;
     background-repeat: no-repeat ;
     background-size: cover ;
@@ -197,7 +197,7 @@
 .section02 .box{
     width: 1920px ;
     height: 1080px ;
-    background-image: url(../img/s2-aboutme.png);
+    background-image: url(../img/s2-bg-aboutme03.png);
     position: absolute ;
     left: 50% ;
     top: 50% ;
@@ -453,7 +453,7 @@
     display: block ;
 }
 .section04{
-    background-image: url(../img/sky02.png);
+    background-image: url(../img/04-bg.png);
     background-position: center ;
     background-repeat: no-repeat ;
     background-size: cover ;
@@ -461,12 +461,63 @@
 }
 .section04 .contents-box{
     width: 1720px ;
-    height: 840px ;
-    background-color: bisque ;
+    height: 841px ;
     position: absolute ;
     left: 50% ;
     top: 50% ;
     transform: translate(-50%, -50%) ;
+    background-image: url(../img/04-bg-content.png);
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+}
+.section04 .contents-box .detail{
+    position: absolute ;
+    width: 33.3% ;
+    height: 50% ;
+    left: 0 ;
+    top: 0 ;
+    border: 1px solid #eeeeee; 
+
+}
+.section04 .contents-box .sense{
+    position: absolute ;
+    width: 33.3% ;
+    height: 50% ;
+    left: 33.3% ;
+    top: 0 ;
+    border-top: 1px solid #eeeeee ; 
+    border-bottom: 1px solid #eeeeee ; 
+}
+.section04 .contents-box .openmind{
+    position: absolute ;
+    width: 33.4% ;
+    height: 50% ;
+    right: 0 ;
+    top: 0 ;
+    border: 1px solid #eeeeee;
+}
+.section04 .contents-box .fitness{
+    position: absolute ;
+    width: 50% ;
+    height: 49.8% ;
+    right: 0 ;
+    bottom: 0 ;
+    border-right: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee ;
+}
+.section04 .contents-box .video{
+    position: absolute ;
+    width: 50% ;
+    height: 50% ;
+    left: 0 ;
+    bottom: 0 ;
+    background-color: black ;
+}
+
+.section04 .contents-box .box:hover{
+    background-color: bisque ;
+    transition: 1s ;
 }
 .section04 .contents-box .box01{
     width: 100px ;
@@ -477,11 +528,6 @@
     top: 50% ;
     transform: translate(-50%, -50%) ;
 }
-
-.section04 .contents-box .box01:hover{
-    background-image: url(../img/sky02.png);
-}
-
 
 .section04 .top-border {
     width: 1720px ;

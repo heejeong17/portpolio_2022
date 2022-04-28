@@ -3,11 +3,11 @@ $(document).ready(function(){
     $(".wrap").fullpage({
         navigation: true , 
         navigationTooltips: [
-            'test01',
-            'test02',
-            'test03',
-            'test04',
-            'footer'
+            'GongZone',
+            'About Me',
+            'Portpolio',
+            'Experience',
+            'Contact Me'
         ]
     });
 
