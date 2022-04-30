@@ -488,6 +488,7 @@
     top: 0 ;
     border-top: 1px solid #eeeeee ; 
     border-bottom: 1px solid #eeeeee ; 
+    
 }
 .section04 .contents-box .openmind{
     position: absolute ;
@@ -515,10 +516,35 @@
     background-color: black ;
 }
 
-.section04 .contents-box .box:hover{
-    background-color: bisque ;
+.section04 .contents-box .detail:hover{
+    background-image: url(../img/detail.png);
     transition: 1s ;
+    background-position: center ;
+    background-size: cover ;
+    background-repeat: no-repeat ;
 }
+.section04 .contents-box .sense:hover{
+    background-image: url(../img/sense.png);
+    background-position: center ;
+    background-size: cover ;
+    background-repeat: no-repeat ;
+    border-left: 1px solid #eeeeee ;
+}
+.section04 .contents-box .openmind:hover{
+    background-image: url(../img/openmind.png);
+    transition: 1s ;
+    background-position: center ;
+    background-size: cover ;
+    background-repeat: no-repeat ;
+}
+.section04 .contents-box .fitness:hover{
+    background-image: url(../img/fitness.png);
+    background-position: center ;
+    background-size: cover ;
+    background-repeat: no-repeat ;
+   border-top: 1px solid #eeeeee ;
+}
+
 .section04 .contents-box .box01{
     width: 100px ;
     height: 100px ;
