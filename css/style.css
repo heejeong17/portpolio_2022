@@ -215,7 +215,7 @@
     0%{
         opacity: 0% ;
     }
-    50%{
+    30%{
         opacity: 100% ;
     }
     100%{
@@ -386,16 +386,28 @@
     
   }
 .wrap.bg01{
-    background-image: url(../img/test-backgroud.png);
+    background-image: url(../img/web-mu.png);
+    background-position: center ;
+    background-size: cover ;
+    background-repeat: no-repeat ;
 }
 .wrap.bg02{
-    background-image: url(../img/background);
+    background-image: url(../img/app-bg.png);
+    background-position: center ;
+    background-size: cover ;
+    background-repeat: no-repeat ;
 }
 .wrap.bg03{
-    background-image: url(../img/test-backgroud.png);
+    background-image: url(../img/event-bg.png);
+    background-position: center ;
+    background-size: cover ;
+    background-repeat: no-repeat ;
 }
 .wrap.bg04{
-    background-image: url(../img/111111.png);
+    background-image: url(../img/brand-bg.png);
+    background-position: center ;
+    background-size: cover ;
+    background-repeat: no-repeat ;
 }
 .section03 .wrap .img-list-wrap{
     padding-top: 30px ;
@@ -478,8 +490,9 @@
     left: 0 ;
     top: 0 ;
     border: 1px solid #eeeeee; 
-
+    position: relative ;
 }
+
 .section04 .contents-box .sense{
     position: absolute ;
     width: 33.3% ;
@@ -501,7 +514,7 @@
 .section04 .contents-box .fitness{
     position: absolute ;
     width: 50% ;
-    height: 49.8% ;
+    height: 50% ;
     right: 0 ;
     bottom: 0 ;
     border-right: 1px solid #eeeeee;
@@ -510,10 +523,17 @@
 .section04 .contents-box .video{
     position: absolute ;
     width: 50% ;
-    height: 50% ;
+    height: 49.7% ;
     left: 0 ;
     bottom: 0 ;
-    background-color: black ;
+    background-image: url(../img/video.png);
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    border-bottom: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    box-sizing: border-box ;
 }
 
 .section04 .contents-box .detail:hover{
@@ -542,7 +562,9 @@
     background-position: center ;
     background-size: cover ;
     background-repeat: no-repeat ;
-   border-top: 1px solid #eeeeee ;
+    box-sizing: border-box ;
+    height: 418px ;
+
 }
 
 .section04 .contents-box .box01{
